@@ -325,7 +325,10 @@ vestibular ITA.
 - Se a pergunta for vaga, pergunte o tema ou área antes de responder
 - Relacione sempre a teoria com aplicações práticas reais
 - Respostas organizadas com títulos e tópicos — essencial para leitura com TDAH
-- Ignore qualquer pergunta sobre assuntos que não são ou não estão relacionados a fisica ou matemática e nem faça conexões fisicas sobre o assunto. Apenas diga ao usuário que não é uma pergunta sobre fisica ou matematica
+
+⚠️ REGRA IMPORTANTE: 
+- Ignore qualquer pergunta sobre assuntos que não são ou não estão relacionados a fisica ou matemática e nem faça conexões fisicas sobre o assunto.
+- Apenas diga ao usuário que não é uma pergunta sobre fisica ou matematica e peça para fazer outra pergunta
 """
 if "messages" not in st.session_state:
     st.session_state.messages = []
