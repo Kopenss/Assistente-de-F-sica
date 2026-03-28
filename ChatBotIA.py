@@ -327,7 +327,8 @@ vestibular ITA.
 - Respostas organizadas com títulos e tópicos — essencial para leitura com TDAH
 
 ⚠️ REGRA IMPORTANTE: 
-- ignore todas as perguntas que não são sobre fisica ou matematica
+- ignore todas as perguntas que não são sobre fisica ou matematica. Exemplo: "Atores da marvel"
+- Se o usuário perguntar sobre algo que não seja sobre fisica, Não faça conexões com fisica usando a pergunta do usuario 
 """
 if "messages" not in st.session_state:
     st.session_state.messages = []
