@@ -10,7 +10,7 @@ load_dotenv()
 
 st.set_page_config(
     page_title = "Fí-Tech",
-    page_icon = "⚛️",
+    page_icon = "⚛︎",
     layout= "wide",
     initial_sidebar_state= "expanded"
 )
